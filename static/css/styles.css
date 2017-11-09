@@ -8,6 +8,12 @@ body {
     font-family : Roboto, sans-serif ;
     min-height : 100vh ;
     background : yellow ;
+    display : flex ;
+    flex-direction : column ;
+}
+
+main {
+    flex-grow : 1 ;
     
 }
 
@@ -57,6 +63,7 @@ h3 {
     padding : 20px ;
     margin : 0 ;
     display : flex ;
+    flex-wrap : wrap ;
 }
 
 #banniere ul a {
@@ -65,4 +72,53 @@ h3 {
     color : #444444 ;
     cursor : pointer ;
     padding : 15px ;
+}
+
+#banniere ul a:hover {
+    border-bottom : 2px dotted #444444 ;
+}
+
+/* Footer */
+
+footer {
+    background : #009688 ;
+    color : rgba(255, 255, 255, 0.8) ;
+}
+
+h5 {
+    font-size : 1.2rem ;
+    margin : 15px 0 15px 0 ;
+}
+
+footer ul {
+    margin : 0 0 15px 0 ;
+    list-style : none ;
+    padding : 0 ;
+}
+
+footer > .container {
+    display : flex ;
+    justify-content : space-between ;
+    flex-wrap : wrap ;
+}
+
+footer > div:not(.container) {
+    background : rgba(51, 51, 51, 0.08) ;
+    
+    padding : 15px 0 15px 0;
+}
+
+footer a {
+    color : rgba(255, 255, 255, 0.8) ;
+    text-decoration : none ;
+}
+
+#suiveznous {
+    display : flex ;
+    justify-content : space-between ;
+}
+
+#suiveznous img {
+    height : 40px ;
+    margin : 0 10px 0 10px ;
 }
