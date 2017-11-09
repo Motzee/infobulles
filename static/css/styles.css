@@ -5,7 +5,10 @@
 body {
     margin : 0 ;
     padding : 0 ;
-    font-family : sans-serif ;
+    font-family : Roboto, sans-serif ;
+    min-height : 100vh ;
+    background : yellow ;
+    
 }
 
 p, li {
@@ -28,13 +31,38 @@ h3 {
     margin-left : 25px ;
 }
 
-/* Menus de navigation*/
-nav ul {
-    list-style : none ;
-    padding : 0 ;
-    margin : 0
+.container {
+    width : 100% ;
+    max-width : 100ch ;
+    margin : auto ;
 }
 
-nav ul a {
+/* Bannière */
+
+#banniere {
+    background : #00BFA5 ;
+    position : fixed ;
+    box-shadow : 0 2px 2px grey ;
+    width : 100% ;
+}
+
+#banniere > .container {
+    display : flex ;
+    justify-content : space-between ;
+    align-items : center ;
+}
+
+#banniere ul {
+    list-style : none ;
+    padding : 20px ;
+    margin : 0 ;
+    display : flex ;
+}
+
+#banniere ul a {
     text-decoration : none ;
+    text-transform : uppercase ;
+    color : #444444 ;
+    cursor : pointer ;
+    padding : 15px ;
 }
