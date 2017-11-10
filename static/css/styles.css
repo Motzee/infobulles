@@ -7,7 +7,6 @@ body {
     padding : 0 ;
     font-family : Roboto, sans-serif ;
     min-height : 100vh ;
-    background : yellow ;
     display : flex ;
     flex-direction : column ;
 }
@@ -34,7 +33,6 @@ h2 {
 
 h3 {
     font-size : 1.6rem ;
-    margin-left : 25px ;
 }
 
 .container {
@@ -121,4 +119,40 @@ footer a {
 #suiveznous img {
     height : 40px ;
     margin : 0 10px 0 10px ;
+}
+
+#genially {
+    margin : auto ;
+    margin-bottom : 15px ;
+}
+
+.illustrationbg {
+    background-position : center center ;
+    background-size : cover ;
+    height : 70vh ;
+    min-height : 450px ;
+}
+
+.zone {
+    display : flex ;
+    justify-content : space-between ;
+    align-items : center ;
+    flex-wrap : wrap ;
+}
+
+.zone > h3 {
+    width : 100% ;
+    text-align : center ;
+}
+
+#equipe > section {
+    border : 1px solid lightgrey ;
+    box-shadow : 1px 1px 2px grey ;
+    margin-bottom : 15px ;
+}
+
+.triflex > * {
+    width : 30% ;
+    text-align : center ;
+    margin-bottom : 15px ;
 }
